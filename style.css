@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=DynaPuff&family=Montserrat:wght@300&family=Nunito:ital,wght@0,300;0,400;0,500;1,600;1,700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+#input {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  font-size: 2rem;
+}
+button {
+  font-size: 2rem !important;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(255, 255, 255) !important;
+  opacity: 1 !important; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(255, 255, 255) !important;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(255, 255, 255) !important;
+}
+
+.temp {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.card {
+  width: 14rem !important;
+  box-shadow: 0px 15px 0px -4px rgba(180, 170, 170, 0.575);
+}
+
+img {
+  max-width: 4rem;
+}
